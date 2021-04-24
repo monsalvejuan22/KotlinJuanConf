@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="altoLogoElectromed">80dp</dimen>
+    <dimen name="toolbarAlto">30dp</dimen>
+    <dimen name="cardCornerRadios">4dp</dimen>
+    <dimen name="altoImageViewHome">150dp</dimen>
+    <dimen name="tamañoTilulo">20sp</dimen>
+    <dimen name="marginHomeSubtitulo">10dp</dimen>
+    <dimen name="tamañoSubtitulo">15sp</dimen>
+    <dimen name="marginHomeCardview">15dp</dimen>
+    <dimen name="itemScheduleTitulo">30sp</dimen>
+    <dimen name="itemScheduleSubTitulo">20sp</dimen>
 </resources>
