@@ -1,5 +1,12 @@
 <resources>
     <string name="app_name">juanconf</string>
+    <string name="inicio_frag_tv_que_es">¿Quienes somos Electromed?</string>
+    <string name="inicio_frag_tv_que_es_resp">Fundada en 1982 por Sr. Victor Fucito, Ingeniero Electronico de la Universidad Federico Santa Maria, con mas de 35 años de trayectoria y presencia en toda Chile</string>
+    <string name="inicio_frag_tv_info">Informacion de la empresa</string>
+    <string name="inicio_frag_tv_info_res">
+        &#8226; Venta de equipos medicos.
+        &#8226; Servico tecnico.
+        &#8226; Acesoria.</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
