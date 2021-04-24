@@ -13,11 +13,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="@dimen/cardCornerRadios"
-                app:cardElevation="0dp"
+                app:cardElevation="4dp"
                 android:layout_margin="@dimen/marginHomeCardview">
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -118,7 +119,7 @@
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/altoImageViewHome"
-                        android:src="@drawable/equipoNuevo2"
+                        android:src="@drawable/equiponuevo2"
                         android:contentDescription="TODO"
                         android:layout_marginTop="@dimen/marginHomeCardview"/>
 
