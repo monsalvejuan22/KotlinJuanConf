@@ -4,8 +4,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <com.google.android.material.appbar.AppBarLayout
-        android:layout_width="0dp"
-        android:layout_height="0dp">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
         <Toolbar
             android:id="@+id/toolbarConference"
             android:layout_width="match_parent"
@@ -15,7 +15,10 @@
     <FrameLayout
         android:id="@+id/frameLayout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+
 
         <ScrollView
             android:layout_width="match_parent"
