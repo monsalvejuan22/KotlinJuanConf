@@ -18,17 +18,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="@dimen/cardCornerRadios"
-                app:cardElevation="4dp"
+                app:cardElevation="0dp"
                 android:layout_margin="@dimen/marginHomeCardview">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:background="@drawable/shape_parrafo">
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/altoImageViewHome"
-                        android:src="@drawable/logo2"
-                        android:contentDescription="TODO" />
+                        android:src="@drawable/logo_electromed"
+                        android:contentDescription="TODO"
+                        android:layout_margin="10dp"/>
                     <view
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
@@ -83,7 +85,8 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:background="@drawable/shape_parrafo">
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -103,7 +106,27 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/inicio_frag_tv_info_res"
+                        android:text="- Venta de equipos medicos"
+                        android:textSize="@dimen/tamañoSubtitulo"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_marginRight="@dimen/marginHomeSubtitulo"
+                        android:layout_marginLeft="@dimen/marginHomeSubtitulo"
+                        android:layout_marginTop="@dimen/marginHomeSubtitulo"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="- Capacitación"
+                        android:textSize="@dimen/tamañoSubtitulo"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_marginRight="@dimen/marginHomeSubtitulo"
+                        android:layout_marginLeft="@dimen/marginHomeSubtitulo"
+                        android:layout_marginTop="@dimen/marginHomeSubtitulo"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="- Servicio Tecnico"
                         android:textSize="@dimen/tamañoSubtitulo"
                         android:textColor="@color/colorPrimary"
                         android:layout_marginRight="@dimen/marginHomeSubtitulo"
@@ -121,7 +144,7 @@
                         android:layout_height="@dimen/altoImageViewHome"
                         android:src="@drawable/equiponuevo2"
                         android:contentDescription="TODO"
-                        android:layout_marginTop="@dimen/marginHomeCardview"/>
+                        android:layout_margin="10dp" />
 
 
 

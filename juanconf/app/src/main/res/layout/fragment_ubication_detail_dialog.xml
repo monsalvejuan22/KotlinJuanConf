@@ -7,103 +7,114 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <Toolbar
-            android:id="@+id/toolbarConference"
+            android:id="@+id/toolbarUbicatition"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     </com.google.android.material.appbar.AppBarLayout>
-
     <FrameLayout
         android:id="@+id/frameLayout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
-
-
-    <ScrollView
+        android:layout_height="match_parent"/>
+        <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="200dp">
-
                     <ImageView
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="230dp"
                         android:scaleType="centerCrop"
                         android:src="@drawable/equiponuevo" />
-
-                    <view
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:alpha="0.3"
-                        android:background="@color/colorPrimary" />
-
-                    <TextView
-                        android:id="@+id/tvItemScheduleConferenSpeaker"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Tecnologia"
-                        android:layout_centerInParent="true"
-                        android:gravity="center_horizontal"
-                        android:textColor="@color/white"
-                        android:textSize="30sp"
-                        android:textStyle="bold" />
-                </RelativeLayout>
 
                 <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     app:contentPaddingRight="4dp"
-                    android:elevation="1dp"
+                    android:elevation="0dp"
                     android:layout_margin="15dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        android:background="@drawable/shape_parrafo">
                         <TextView
                             android:id="@+id/tvDetailConferenHour"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="00:00"
-                            android:textSize="15sp"
-                            android:textColor="@color/colorPrimary"
-                            android:gravity="center_horizontal"
-                            android:layout_margin="5dp"/>
-                        <TextView
-                            android:id="@+id/tvDetailConferenSpeaker"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Nombre Expositor"
-                            android:textSize="20sp"
+                            android:text="Lugar Electromed"
+                            android:textSize="30sp"
                             android:textStyle="bold"
                             android:textColor="@color/colorPrimary"
                             android:gravity="center_horizontal"
                             android:layout_margin="5dp"/>
-                        <TextView
-                            android:id="@+id/tvDetailConferenTag"
+                        <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Tag"
-                            android:textSize="12sp"
-                            android:textColor="@color/colorPrimary"
-                            android:gravity="center_horizontal"
-                            android:layout_margin="5dp"/>
-                        <TextView
-                            android:id="@+id/tvDetailConferenDescription"
+                            android:orientation="horizontal"
+                            android:padding="20dp">
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_pin"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Direccion"
+                                android:textSize="15sp"
+                                android:textColor="@color/colorPrimary"
+                                android:gravity="left"
+                                android:layout_margin="5dp"/>
+                        </LinearLayout>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/colorPrimary"/>
+
+                        <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Detalles de la Conferencia"
-                            android:textSize="15sp"
-                            android:textColor="@color/colorPrimary"
-                            android:gravity="center_horizontal"
-                            android:layout_margin="5dp"/>
+                            android:orientation="horizontal"
+                            android:padding="20dp">
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_phone"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Telefono"
+                                android:textSize="15sp"
+                                android:textColor="@color/colorPrimary"
+                                android:gravity="left"
+                                android:layout_margin="5dp"/>
+                        </LinearLayout>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/colorPrimary"/>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="20dp">
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_link"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Sitio Web"
+                                android:textSize="15sp"
+                                android:textColor="@color/colorPrimary"
+                                android:gravity="left"
+                                android:layout_margin="5dp"/>
+                        </LinearLayout>
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -112,5 +123,5 @@
             </LinearLayout>
 
         </ScrollView>
-    </FrameLayout>
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

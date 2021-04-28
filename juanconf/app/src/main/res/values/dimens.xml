@@ -3,7 +3,7 @@
     <dimen name="altoLogoElectromed">100dp</dimen>
     <dimen name="toolbarAlto">50dp</dimen>
     <dimen name="cardCornerRadios">4dp</dimen>
-    <dimen name="altoImageViewHome">150dp</dimen>
+    <dimen name="altoImageViewHome">130dp</dimen>
     <dimen name="tamañoTilulo">20sp</dimen>
     <dimen name="marginHomeSubtitulo">10dp</dimen>
     <dimen name="tamañoSubtitulo">15sp</dimen>

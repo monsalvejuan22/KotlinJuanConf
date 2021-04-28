@@ -86,7 +86,7 @@
                             android:id="@+id/tvDetailSpeakerTwitter"
                             android:layout_width="30dp"
                             android:layout_height="30dp"
-                            android:src="@drawable/ic_twitter"
+                            android:src="@drawable/ic_twitter_seeklogo_com"
                             android:layout_marginTop="10dp"
                             android:layout_gravity="center_horizontal"/>
 
