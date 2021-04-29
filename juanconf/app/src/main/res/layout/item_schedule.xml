@@ -30,6 +30,7 @@
                 android:text="A.M."
                 android:gravity="right|bottom"
                 android:textSize="@dimen/itemScheduleSubTitulo"
+                android:layout_marginTop="5dp"
                 android:textColor="@color/colorPrimaryDark" />
 
         </LinearLayout>

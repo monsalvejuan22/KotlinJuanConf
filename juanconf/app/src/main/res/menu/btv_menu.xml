@@ -16,7 +16,7 @@
         android:icon="@drawable/ic_speakers"
         />
     <item
-        android:id="@+id/navUbicationFragment"
+        android:id="@+id/navMapFragment"
         android:title="Ubication"
         android:icon="@drawable/ic_ubication"
         />

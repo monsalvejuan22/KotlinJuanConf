@@ -14,7 +14,8 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="@dimen/toolbarAlto"
-                android:src="@drawable/logo_electromed_blanco"/>
+                android:src="@drawable/logo_electromed_blanco"
+                android:contentDescription="@string/todo" />
         </Toolbar>
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -22,6 +23,14 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <fragment
+            android:id="@+id/fragContent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/btvMenu"
+            app:navGraph="@navigation/nav_graph"
+            app:defaultNavHost="true"/>
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/btvMenu"
