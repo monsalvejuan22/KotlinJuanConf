@@ -31,7 +31,7 @@
                         android:src="@drawable/logo_electromed"
                         android:contentDescription="TODO"
                         android:layout_margin="10dp"/>
-                    <view
+                    <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
                         android:background="@color/colorPrimary"
@@ -47,7 +47,7 @@
                         android:layout_marginLeft="@dimen/marginHomeSubtitulo"
                         android:layout_marginTop="@dimen/marginHomeSubtitulo"
                         />
-                    <view
+                    <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
                         android:background="@color/colorPrimary"
@@ -63,7 +63,7 @@
                         android:layout_marginLeft="@dimen/marginHomeSubtitulo"
                         android:layout_marginTop="@dimen/marginHomeSubtitulo"
                         />
-                    <view
+                    <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
                         android:background="@color/colorPrimary"
@@ -98,7 +98,7 @@
                         android:layout_marginRight="@dimen/tamañoSubtitulo"
                         android:layout_marginBottom="@dimen/tamañoSubtitulo"
                         />
-                    <view
+                    <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
                         android:background="@color/colorPrimary"
@@ -133,7 +133,7 @@
                         android:layout_marginLeft="@dimen/marginHomeSubtitulo"
                         android:layout_marginTop="@dimen/marginHomeSubtitulo"
                         />
-                    <view
+                    <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
                         android:background="@color/colorPrimary"
