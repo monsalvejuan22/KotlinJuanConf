@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="altoLogoElectromed">100dp</dimen>
+    <dimen name="altoLogoElectromed">120dp</dimen>
     <dimen name="toolbarAlto">50dp</dimen>
     <dimen name="cardCornerRadios">4dp</dimen>
     <dimen name="altoImageViewHome">130dp</dimen>
